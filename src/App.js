@@ -25,11 +25,6 @@ function App() {
             <AppShowRoomCar />
           </MainTempate>
         </Route>
-        <Route exact={true} path="/quan-ly-nhan-vien">
-          <MainTempate>
-            <AppShowRoomCar />
-          </MainTempate>
-        </Route>
         <Route>
           <Redirect to="/xuc-xac"></Redirect>
         </Route>

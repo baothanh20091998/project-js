@@ -1,8 +1,33 @@
 @font-face {
-    font-family: fontGame;
-    src: url('./Pony.ttf');
+  font-family: fontGame;
+  src: url("./Pony.ttf");
 }
 
 .gameXucXac {
-    font-family: fontGame;
+  font-family: fontGame;
+}
+
+@media only screen and(max-width:1024px) {
+  .BanChoi {
+    padding: 0 10%;
+    .col-4 {
+      button {
+        width: 80px;
+        padding: 10px !important;
+        height: 80px;
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+@media only screen and(max-width:736px) {
+  .BanChoi {
+    span {
+      font-size: 30px;
+    }
+  }
+  .ketQua {
+    font-size: 30px;
+  }
 }

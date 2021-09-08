@@ -26,3 +26,10 @@
     }
   }
 }
+
+@media only screen and (max-width: 736px) {
+  .header {
+    top: 13%;
+    left: 0;
+  }
+}

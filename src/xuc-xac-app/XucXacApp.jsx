@@ -18,7 +18,7 @@ class XucXacApp extends Component {
           <h3 className="display-4 text-center">GAME XÚC XẮC</h3>
           <BanChoi />
         </div>
-        <div className="container text-center display-4">
+        <div className="container text-center display-4 ketQua">
           <KetQua />
           <button className="btn btn-success" style={{ fontSize: 30 }} onClick={() => {
             this.props.dispatch({

@@ -16,9 +16,6 @@ export default class Header extends Component {
                 <li>
                     <NavLink activeClassName="active__menu" to="/showroom-car">Show Room Car</NavLink>
                 </li>
-                <li>
-                    <NavLink activeClassName="active__menu" to="/quan-ly-nhan-vien">Quản lý nhân viên</NavLink>
-                </li>
             </ul>
         )
     }
